@@ -5,3 +5,8 @@ metadata:
   namespace: default
 spec:
   name: eks-gitops-workshop-782550029158
+  tagging:
+    tagSet:
+    - key: application
+      value: podinfo
+
